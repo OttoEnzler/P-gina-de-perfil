@@ -1,0 +1,224 @@
+/*Barra menu*/
+#barra-menu{
+    font-family: cursive;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+
+#barra-lista{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+#barra-profile{
+    font-size: 30px;
+}
+
+#boton-signout{
+    margin-left: 200px;
+    background-color: rgb(23, 162, 184);
+    color: white;
+    font-family: cursive;
+}
+
+.botones-barra{
+    margin-left: 15px;
+}
+/*Caja Perfil*/
+
+#container {
+    font-family: cursive;
+    border-style: solid;
+    border-top: none;
+    border-color: rgb(207, 206, 207);
+    width: 350px;
+    height: 180px;
+    padding-top: 20px;
+    margin-left: 150px;
+}
+
+#celeste {
+    background-color: rgb(23, 162, 184);
+    position: relative;
+    width: 356px;
+    top: 16px;
+    margin-left: 150px;
+}
+
+#perfil {
+    position: relative;
+    border-radius: 50%;
+    height: 70px;
+    top: 40px;
+    left: 20px;
+}
+
+#ubicacion {
+    display: flex;
+    position: relative;
+    left: 15px;
+    bottom: 14px
+}
+
+#ubi {
+    height: 15px;
+    margin-top: 21px;
+}
+
+#gear {
+    height: 15px;
+    position: relative;
+    bottom: 51px;
+}
+
+#d1{
+    position: relative;
+    bottom: 34px;
+}
+
+#d2{
+    position: relative;
+    bottom: 47px;
+}
+
+.descripcion {
+    font-size: smaller;
+}
+
+.edicion{
+    position: relative;
+    bottom: 55px;
+    left: 15px;
+}
+
+h1 {
+    font-size: x-large;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+p {
+    padding-left: 15px;
+}
+
+a{
+    font-size: smaller;
+}
+
+/*primer cuadrado izquierda*/
+#cajita-izq1{
+    font-family: cursive;
+    position: relative;
+    left: 577px;
+    bottom: 261px;
+}
+#izq-cuerpo1{
+    border-style: solid;
+    border-top: none;
+    border-color: rgb(203, 203, 203);
+}
+#aceptar2{
+    margin-left: 52px;
+}
+/*segundo cuadrito izquierda*/
+#cajita-izq2{
+    font-family: cursive;
+    position: relative;
+    left: 577px;
+    bottom: 235px;
+}
+#izq-cuerpo2{
+    border-style: solid;
+    border-top: none;
+    border-color: rgb(203, 203, 203);
+}
+
+#viewmore{
+    border-style: solid;
+    border-top: none;
+    border-color: rgb(203, 203, 203);
+    font-family: cursive;
+    position: relative;
+    left: 577px;
+    bottom: 235px;
+    width: 224px;
+}
+/*modifica los dos cuadritos a la izquierda*/
+.izq{
+    width: 230px;
+}
+
+.encab-izq{
+    background-color: rgb(51, 50, 51);
+    display:flex;
+}
+/*modifica algunas cosas de la izq y la der*/
+.notificacion{
+    margin-left: 10px;
+    color:black;
+    background-color: rgb(203, 203, 203);
+    border-radius: 50%;
+    text-align: center;
+}
+.titulo{
+    color:white;
+}
+.person{
+    display:flex;
+    align-items: center;
+}
+.p-perfil{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+.p-name{
+    margin-left: 3px;
+}
+.aceptar{
+    width: 25px;
+    height: 25px;
+    margin-left: 40px;
+}
+.cerrar{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+/*primer cuadrado derecha*/
+#cajita-der{
+    font-family: cursive;
+    width: 350px;
+    position: relative;
+    left: 151px;
+    bottom: 460px
+}
+#der-cuerpo{
+    border-style: solid;
+    border-top: none;
+    border-color: rgb(203, 203, 203);
+    position: relative;
+    bottom: 20px;
+}
+#cd{
+    font-size: 20px;
+}
+#fecha{
+    color:gray;
+}
+#mcnd{
+    font-size: small;
+}
+.encab-der{
+    background-color: rgb(51, 50, 51);
+}
+
+
+
+
